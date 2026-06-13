@@ -1,0 +1,599 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 1,
+                "NPSN": 69963696,
+                "Nama Sekolah": "SMP CAHAYA BANGSA",
+                "Alamat": "Jl. Hasanuddin No. 117",
+                "Desa/Kelurahan": "Yosomulyo",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.317792,
+                    -5.10493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 2,
+                "NPSN": 10807619,
+                "Nama Sekolah": "SMP ISLAM YPI 2 METRO",
+                "Alamat": "Jl. Atmo Sentono, RT 23/RW 06 Kel. Desa Karang Rejo, Metro Utara Kota Metro",
+                "Desa/Kelurahan": "Metro",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3259,
+                    -5.0783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 3,
+                "NPSN": 10807621,
+                "Nama Sekolah": "SMP KRISTEN 1 METRO",
+                "Alamat": "Jl. Jend. Sudirman 115",
+                "Desa/Kelurahan": "Metro",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3006,
+                    -5.1144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 4,
+                "NPSN": 10807623,
+                "Nama Sekolah": "SMP MA ARIF 5 METRO",
+                "Alamat": "Jl. Mr. Gele Harun No.22 Kauman",
+                "Desa/Kelurahan": "Metro",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.306295,
+                    -5.11724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 5,
+                "NPSN": 10807609,
+                "Nama Sekolah": "SMP MUHAMMADIYAH 3 METRO",
+                "Alamat": "Jl. Imam Bonjol No 102",
+                "Desa/Kelurahan": "Hadimulyo Barat",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.297998,
+                    -5.103288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 6,
+                "NPSN": 10807601,
+                "Nama Sekolah": "UPTD SMP NEGERI 1 METRO",
+                "Alamat": "Jl. Letjen. AR. Prawiranegara No. 16 RT/RW. 045/006",
+                "Desa/Kelurahan": "Metro",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.305748,
+                    -5.127666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 7,
+                "NPSN": 10809700,
+                "Nama Sekolah": "UPTD SMP NEGERI 10 METRO",
+                "Alamat": "Jl. Wolter Monginsidi",
+                "Desa/Kelurahan": "Hadimulyo Timur",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3199,
+                    -5.0908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 8,
+                "NPSN": 10807603,
+                "Nama Sekolah": "UPTD SMP NEGERI 3 METRO",
+                "Alamat": "Jl. Letjend. AR. Prawiranegara No. 1 Metro",
+                "Desa/Kelurahan": "Metro",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.30764,
+                    -5.116808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 9,
+                "NPSN": 10807622,
+                "Nama Sekolah": "SMP MAARIF 1 METRO",
+                "Alamat": "Jl. RA. Kartini",
+                "Desa/Kelurahan": "Purwosari",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.286737,
+                    -5.091657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 10,
+                "NPSN": 10807595,
+                "Nama Sekolah": "SMP MUHAMMADIYAH 4 METRO",
+                "Alamat": "Jl. Dr. Sutomo No.35",
+                "Desa/Kelurahan": "Purwosari",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.307095,
+                    -5.079897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 11,
+                "NPSN": 69787371,
+                "Nama Sekolah": "SMPIT BINA INSANI",
+                "Alamat": "Jl. DR Soetomo 28",
+                "Desa/Kelurahan": "Purwosari",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3064,
+                    -5.0806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 12,
+                "NPSN": 10807606,
+                "Nama Sekolah": "UPTD SMP NEGERI 6 METRO",
+                "Alamat": "Jl. PATIMURA 29 BANJARSARI PO BOX 129",
+                "Desa/Kelurahan": "Banjarsari",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2845,
+                    -5.0977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 13,
+                "NPSN": 10807608,
+                "Nama Sekolah": "UPTD SMP NEGERI 8 METRO",
+                "Alamat": "Jl. Anggrek 5",
+                "Desa/Kelurahan": "Karangrejo",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.326,
+                    -5.0716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 14,
+                "NPSN": 70057233,
+                "Nama Sekolah": "SMP Baitul Makmur Metro",
+                "Alamat": "Jl. Nusantara RT. 001 RW. 003",
+                "Desa/Kelurahan": "Mulyosari",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.284272,
+                    -5.14598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 15,
+                "NPSN": 69986225,
+                "Nama Sekolah": "SMP ISLAM DARUL MUTTAQIN",
+                "Alamat": "JL. Al Muttaqin II",
+                "Desa/Kelurahan": "Mulyojati",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2864,
+                    -5.1422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 16,
+                "NPSN": 10807624,
+                "Nama Sekolah": "SMP MUHAMMADIYAH 1 METRO",
+                "Alamat": "Jl. Khairbras No.67",
+                "Desa/Kelurahan": "Ganjarasri",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2972,
+                    -5.1279
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 17,
+                "NPSN": 69899788,
+                "Nama Sekolah": "SMP MUHAMMADIYAH AHMAD DAHLAN METRO",
+                "Alamat": "Jl. AR. Prawira Negara Mulyojati Metro Barat",
+                "Desa/Kelurahan": "Mulyojati",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3068,
+                    -5.1317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 18,
+                "NPSN": 70009672,
+                "Nama Sekolah": "SMP MUHAMMADIYAH AT-TANWIR METRO",
+                "Alamat": "Jl. Proklamasi No. 01",
+                "Desa/Kelurahan": "Mulyosari",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2772,
+                    -5.144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 19,
+                "NPSN": 70058173,
+                "Nama Sekolah": "SMP NURUL HUDA ISLAMIC SCHOOL METRO",
+                "Alamat": "Jl. Letjen Amir Mahmud No. 1",
+                "Desa/Kelurahan": "Ganjaragung",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.281274,
+                    -5.131735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 20,
+                "NPSN": 70056382,
+                "Nama Sekolah": "SMP Plus Daarul A`mal",
+                "Alamat": "Jl. Ponpes Daarul A`mal RT. 007 RW. 002",
+                "Desa/Kelurahan": "Mulyojati",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.29145,
+                    -5.13323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 21,
+                "NPSN": 70040889,
+                "Nama Sekolah": "SMP QURAN TEKNOLOGI GAJAHMADA METRO",
+                "Alamat": "Jl. Jendral Sudirman",
+                "Desa/Kelurahan": "Ganjaragung",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2829,
+                    -5.1339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 22,
+                "NPSN": 70035363,
+                "Nama Sekolah": "SMP TAMADDUN ROUDLATUL QURAN",
+                "Alamat": "JL. PESANTREN KEL. MULYOJATI",
+                "Desa/Kelurahan": "Mulyojati",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2894,
+                    -5.145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 23,
+                "NPSN": 10809699,
+                "Nama Sekolah": "SMP TMI ROUDLOTUL QUR AN",
+                "Alamat": "Jl. Pratama Praja Mulyojati 16b",
+                "Desa/Kelurahan": "Mulyojati",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2945,
+                    -5.1338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 24,
+                "NPSN": 70006103,
+                "Nama Sekolah": "SMPK BPK PENABUR METRO",
+                "Alamat": "Jl. Jenderal Sudirman No. 166",
+                "Desa/Kelurahan": "Ganjarasri",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.2959,
+                    -5.1191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 25,
+                "NPSN": 10807625,
+                "Nama Sekolah": "UPTD SMP NEGERI 9 METRO",
+                "Alamat": "Jl. Piagam Jakarta 16 Polos",
+                "Desa/Kelurahan": "Mulyosari",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.269065,
+                    -5.151845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 26,
+                "NPSN": 10807599,
+                "Nama Sekolah": "SMP XAVERIUS METRO",
+                "Alamat": "Jl. Krakatau",
+                "Desa/Kelurahan": "Yosorejo",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3174,
+                    -5.1161
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 27,
+                "NPSN": 10807600,
+                "Nama Sekolah": "SMP YOS SUDARSO METRO",
+                "Alamat": "Jl. Koi No. 25",
+                "Desa/Kelurahan": "Yosorejo",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3193,
+                    -5.1096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 28,
+                "NPSN": 69968386,
+                "Nama Sekolah": "SMPIT WAHDATUL UMMAH",
+                "Alamat": "Jl. Inspeksi RT. 13 RW. 05 Kelurahan Tejosari",
+                "Desa/Kelurahan": "Tejosari",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.324495,
+                    -5.143938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 29,
+                "NPSN": 10807602,
+                "Nama Sekolah": "UPTD SMP NEGERI 2 METRO",
+                "Alamat": "Jl. Ki.Hajar Dewantara No. 91/15a",
+                "Desa/Kelurahan": "Iringmulyo",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.330068,
+                    -5.11982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 30,
+                "NPSN": 10807604,
+                "Nama Sekolah": "UPTD SMP NEGERI 4 METRO",
+                "Alamat": "Jl. Pariya 15a",
+                "Desa/Kelurahan": "Iringmulyo",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.327463,
+                    -5.117885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 31,
+                "NPSN": 10807607,
+                "Nama Sekolah": "UPTD SMP NEGERI 7 METRO",
+                "Alamat": "Jl. Raya Stadion Tejosari Kota Metro",
+                "Desa/Kelurahan": "Tejosari",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3327,
+                    -5.1465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 32,
+                "NPSN": 10807620,
+                "Nama Sekolah": "SMP KARTIKATAMA METRO",
+                "Alamat": "Jl. Kapten P. Tendean",
+                "Desa/Kelurahan": "Margorejo",
+                "Jenis Sekolah": "SWASTA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.299339,
+                    -5.140839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": 33,
+                "NPSN": 10807605,
+                "Nama Sekolah": "UPTD SMP NEGERI 5 METRO",
+                "Alamat": "Jl. Budi Utomo 26a",
+                "Desa/Kelurahan": "Rejomulyo",
+                "Jenis Sekolah": "NEGERI"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3056,
+                    -5.1601
+                ]
+            }
+        }
+    ]
+}

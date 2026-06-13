@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Mutiara Marta Widihartini</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2ff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Tombol kembali */
+.btn-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #2980b9;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 999;
+    display: block;
+    line-height: 1;
+}
+.btn-back:hover { background: #d6ebff; }
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile-header h1 {
+    font-size: 36px;
+    color: #1f618d;
+    margin-bottom: 20px;
+}
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #1f618d;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.profile-card p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 20px;
+}
+.column {
+    background-color: #ffffff;
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.column h2 {
+    color: #1f618d;
+    margin-bottom: 15px;
+}
+.column ul {
+    list-style: disc inside;
+    padding-left: 0;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+    .columns { flex-direction: column; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<a class="btn-back" href="../index.html">←</a>
+
+<div class="container">
+    <div class="profile-header">
+        <h1>Profile</h1>
+        <div class="profile-card">
+            <img src="../Assets/profile.jpg" alt="Foto Mutiara Marta Widihartini">
+            <p>Nama: Mutiara Marta Widihartini</p>
+            <p>NPM: 2313034059</p>
+            <p>Prodi: Pendidikan Geografi</p>
+            <p>Angkatan: 2023</p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <h2>Fun Facts</h2>
+            <ul>
+                <li>Agak Ceroboh – Sering lupa hal kecil, tapi selalu belajar lebih teliti setiap hari.</li>
+                <li>Sok Bisa Sendiri – Sering bilang "bisa sendiri kok", padahal ujung-ujungnya minta tolong juga.</li>
+                <li>Anak ke-2 dari 2 Bersaudara – Sering berantem sama kakak, tapi suka uangnya.</li>
+                <li>Suka Belajar Hal Baru – Penasaran dengan banyak hal, terutama alam dan teknologi.</li>
+                <li>Cita-cita – Ingin memberi manfaat bagi banyak orang.</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Asal Sekolah</h2>
+            <ul>
+                <li>SDN 5 Metro</li>
+                <li>SMPN 1 Metro</li>
+                <li>SMAN 4 Metro</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Hobi &amp; Minat</h2>
+            <ul>
+                <li>Tidur dan menonton drakor</li>
+                <li>Jalan-jalan tapi tidak suka yang membuat lelah</li>
+                <li>Ngopi santai sambil dengar musik</li>
+                <li>Explorasi tempat baru tanpa terburu-buru</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

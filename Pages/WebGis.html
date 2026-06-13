@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebGIS Persebaran SMP Kota Metro</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<style>
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+}
+
+/* Tombol kembali */
+.btn-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #2980b9;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 999;
+    display: block;
+    line-height: 1;
+}
+.btn-back:hover { background: #d6ebff; }
+
+/* Header */
+.header {
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Info Box */
+.info-box {
+    background: #d6ebff;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    line-height: 1.6;
+}
+.info-box h3 {
+    color: #1a5276;
+    margin-top: 0;
+}
+.info-box ul {
+    padding-left: 18px;
+    line-height: 1.9;
+}
+
+/* Map */
+#map {
+    flex: 2;
+    height: 600px;
+    min-width: 300px;
+    border-radius: 10px;
+    border: 2px solid #2980b9;
+}
+
+@media (max-width: 768px) {
+    .container { flex-direction: column; }
+    #map { height: 400px; }
+}
+</style>
+</head>
+<body>
+
+<a class="btn-back" href="../index.html">←</a>
+
+<div class="header">WEBGIS PERSEBARAN SMP DI KOTA METRO</div>
+
+<div class="container">
+    <div class="info-box">
+        <h3>Informasi</h3>
+        <p>Peta ini menampilkan persebaran SMP di Kota Metro. Marker menunjukkan lokasi sekolah dan informasi lengkap sekolah seperti:</p>
+        <ul>
+            <li>Nama Sekolah</li>
+            <li>Alamat Jalan</li>
+            <li>Kecamatan</li>
+            <li>Status Sekolah (Swasta/Negeri)</li>
+        </ul>
+        <p>Gunakan tombol zoom (+/-) pada peta untuk memperbesar atau memperkecil area.</p>
+    </div>
+    <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+var map = L.map('map').setView([-5.12, 105.30], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+fetch('../Data/SMP_Metro.geojson')
+    .then(function(res) {
+        if (!res.ok) throw new Error('GeoJSON tidak ditemukan');
+        return res.json();
+    })
+    .then(function(data) {
+        L.geoJSON(data, {
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng);
+            },
+            onEachFeature: function(feature, layer) {
+                if (feature.properties) {
+                    var nama      = feature.properties['Nama Sekolah']  || 'Tidak Diketahui';
+                    var alamat    = feature.properties['Alamat']         || 'Tidak Diketahui';
+                    var kecamatan = feature.properties['Desa/Kelurahan'] || 'Tidak Diketahui';
+                    var status    = feature.properties['Jenis Sekolah']  || 'Tidak Diketahui';
+                    layer.bindPopup(
+                        '<b>' + nama + '</b><br>' +
+                        'Jalan: ' + alamat + '<br>' +
+                        'Kecamatan: ' + kecamatan + '<br>' +
+                        'Status: ' + status
+                    );
+                }
+            }
+        }).addTo(map);
+    })
+    .catch(function(err) {
+        console.warn('GeoJSON error:', err.message);
+    });
+</script>
+
+</body>
+</html>
